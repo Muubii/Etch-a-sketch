@@ -1,0 +1,22 @@
+*{
+    background-color: antiquewhite;
+}
+
+
+#etch-a-sketch {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+#etch-a-sketch div:hover {
+    background-color: black; /* Change color when hovering */
+}
+
+#shakeButton {
+    margin-top: 20px;
+    border-radius: 5px;
+}
